@@ -1,0 +1,16 @@
+"transport": {
+  "rideshare": "Rideshare",
+  "availableRides": "Available Rides", 
+  "createRide": "Create Ride",
+  "fullName": "Full Name"
+  "male": "Male",
+  "female": "Female",
+  "currentLocation": "Current Location",
+  "destination": "Destination",
+  "seats": "Seats",
+  "chat": "Chat",
+  "join": "Join",
+  "from": "From",
+  "to": "To",
+  "status": "Status"
+} 

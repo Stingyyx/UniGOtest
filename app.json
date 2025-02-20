@@ -1,0 +1,71 @@
+{
+  "expo": {
+    "name": "UniWays",
+    "slug": "uniways-local",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "uniways",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.uniways.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to let users upload profile pictures and share images.",
+        "NSPhotoLibraryUsageDescription": "This app uses the photo library to let users upload profile pictures and share images.",
+        "NSLocationWhenInUseUsageDescription": "This app uses location services to show nearby rides and campus locations."
+      }
+    },
+    "android": {
+      "package": "com.uniways.app",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#ffffff",
+          "sounds": [
+            "./assets/bus-alaram-notfication.wav"
+          ]
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "projectId": "your-project-id-here",
+    "newArchEnabled": true,
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id-here"
+      }
+    },
+    "notification": {
+      "icon": "./assets/notification-icon.png",
+      "color": "#000000",
+      "iosDisplayInForeground": true,
+      "androidMode": "default",
+      "androidCollapsedTitle": "تنبيه باص",
+      "sound": "./assets/bus-alaram-notfication.wav"
+    }
+  }
+}

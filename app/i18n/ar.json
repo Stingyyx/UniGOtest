@@ -1,0 +1,65 @@
+"transport": {
+  "rideshare": "مشاركة الركوب",
+  "availableRides": "الرحلات المتاحة",
+  "createRide": "إنشاء رحلة",
+  "fullName": "الاسم الكامل",
+  "male": "ذكر",
+  "female": "أنثى",
+  "currentLocation": "الموقع الحالي",
+  "destination": "الوجهة",
+  "seats": "المقاعد",
+  "chat": "محادثة",
+  "join": "انضمام",
+  "from": "من",
+  "to": "إلى",
+  "status": "الحالة",
+  "cities": {
+    "jenin": "جنين",
+    "tulkarm": "طولكرم",
+    "nablus": "نابلس"
+  },
+  "bus_alerts": {
+    "title": "جداول الباصات",
+    "no_schedules": "لا توجد جداول باص متاحة",
+    "departure": "المغادرة",
+    "arrival": "الوصول",
+    "notification_permission": "نحتاج إذن الإشعارات لتنبيهك بمواعيد الباص",
+    "enable_notifications": "تفعيل الإشعارات",
+    "bus_reminder": "تذكير بموعد الباص",
+    "bus_reminder_body": "الباص {{route}} سينطلق في {{time}}",
+    "continuous_service": "خدمة مستمرة طوال اليوم",
+    "last_bus": "آخر باص: {{time}}",
+    "favorite_added": "تمت إضافة الرحلة إلى المفضلة",
+    "favorite_removed": "تمت إزالة الرحلة من المفضلة",
+    "notification_scheduled": "تم جدولة التنبيه",
+    "notification_cancelled": "تم إلغاء التنبيه",
+    "notification_error": "حدث خطأ في جدولة التنبيه",
+    "bus_stops": "مواقف الباصات",
+    "view_map": "عرض الخريطة",
+    "stop_details": "تفاصيل الموقف",
+    "loading_stops": "جاري تحميل مواقف الباصات...",
+    "no_stops_found": "لم يتم العثور على مواقف في هذه المدينة",
+    "error_loading_stops": "حدث خطأ في تحميل مواقف الباصات",
+    "days": {
+      "sunday": "الأحد",
+      "monday": "الإثنين",
+      "tuesday": "الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "الخميس",
+      "friday": "الجمعة",
+      "saturday": "السبت"
+    },
+    "schedule_types": {
+      "regular": "رحلة منتظمة",
+      "return": "رحلة عودة",
+      "flexible": "رحلات متفرقة",
+      "continuous": "خدمة مستمرة",
+      "last": "آخر رحلة"
+    }
+  }
+},
+"common": {
+  "back": "رجوع",
+  "retry": "إعادة المحاولة",
+  "error_occurred": "حدث خطأ"
+} 

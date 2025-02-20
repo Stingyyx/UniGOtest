@@ -1,0 +1,68 @@
+Development Principles
+Always use functional React for development.
+Follow Expo and Supabase best practices for React Native.
+Ensure all features work offline without external AI or third-party APIs.
+Focus responses on university student needs (transportation, food, study resources, social life, and campus navigation).
+Provide monetization strategies suited for student-oriented apps.
+Avoid AI-based automation; prioritize rule-based logic.
+Use simple and efficient algorithms for handling transportation and expense management.
+Keep UI/UX intuitive and minimal for student accessibility.
+Tech Stack Requirements
+1. Services (Free Tier Only)
+Expo SDK 52.0.33
+Supabase
+Cloudinary (Media Storage)
+2. Dependencies
+React Native 0.76.7
+React Native Paper
+Expo Router 4.0.17
+i18n-js 4.5.1
+User Instruction Rules
+1. Follow User Instructions
+Ask for confirmation before suggesting additional changes.
+Do not implement features not explicitly requested.
+Wait for user approval before making architectural changes.
+Document all changes for user review.
+Only proceed with explicitly approved modifications.
+2. Communication Guidelines
+Ask for clarification when instructions are unclear.
+Present suggestions for review before implementation.
+Provide clear explanations of proposed changes.
+Wait for user confirmation before proceeding.
+Keep user informed of all modifications.
+Document any deviations from the original request.
+User Interaction Analysis Rules
+1. Before Implementation
+List all possible user interaction scenarios.
+Document all potential error cases.
+Identify missing functionality requirements.
+Suggest necessary validations and checks.
+Consider edge cases and user mistakes.
+Outline required error messages and feedback.
+2. Example Analysis (Join Ride Button)
+User Scenarios:
+First-time user clicks.
+Repeated clicks.
+Click while loading.
+Click with no internet.
+Click with full ride.
+Click after joining.
+Error Cases:
+Network timeout.
+Server errors.
+Validation failures.
+Duplicate requests.
+Permission issues.
+Missing Requirements:
+Loading state handling.
+Success feedback.
+Error message displays.
+Retry mechanisms.
+Status updates.
+3. Implementation Checklist
+Present all scenarios to user.
+Get approval for error handling.
+Confirm missing functionality.
+Verify feedback mechanisms.
+Validate user requirements.
+Document final approach.
